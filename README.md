@@ -4,6 +4,6 @@ Road Crossing là một game giải trí người chơi trở thành nhân vật
 ## Core: C/C++, Thư viện SDL: Simple DirectMedia Layer
 ## Yêu cầu
 Bạn cần cài đặt và cấu hình Visual Studio Code với thư viện SDL 
-Bài hướng dẫn: https://phattrienphanmem123az.com/lap-trinh-game-cpp/bai-1-gioi-thieu-cai-dat.html
+<br> Bài hướng dẫn: https://phattrienphanmem123az.com/lap-trinh-game-cpp/bai-1-gioi-thieu-cai-dat.html
 ## Demo
 link video: https://youtu.be/g8MbOTy-vTA
