@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Console">
+      <UniqueIdentifier>{b81041ee-4a3c-48fb-a5f7-c6846f5b6a82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common_Fuction">
+      <UniqueIdentifier>{f0099104-c98f-4b7c-8a09-eaa7e3b3484d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BaseObject">
+      <UniqueIdentifier>{1288a885-a5ff-4e21-b777-566adb1d0523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BaseObject\MainObject">
+      <UniqueIdentifier>{17ed25d9-84eb-44b6-9e72-fd2f3c257962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BaseObject\ThreatObject">
+      <UniqueIdentifier>{43b5dc0d-c23f-4fd1-b992-d3e2aa528d38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BaseObject\ExplosionObject">
+      <UniqueIdentifier>{285b9ff5-8603-4083-96d5-0eeacd5d7046}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="console.h">
+      <Filter>Header Files\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Common_Fuction.h">
+      <Filter>Header Files\Common_Fuction</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseObject.h">
+      <Filter>Header Files\BaseObject</Filter>
+    </ClInclude>
+    <ClInclude Include="MainObject.h">
+      <Filter>Header Files\BaseObject\MainObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreatObject.h">
+      <Filter>Header Files\BaseObject\ThreatObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplosionObject.h">
+      <Filter>Header Files\BaseObject\ExplosionObject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common_Fuction.cpp">
+      <Filter>Header Files\Common_Fuction</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseObject.cpp">
+      <Filter>Header Files\BaseObject</Filter>
+    </ClCompile>
+    <ClCompile Include="MainObject.cpp">
+      <Filter>Header Files\BaseObject\MainObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreatObject.cpp">
+      <Filter>Header Files\BaseObject\ThreatObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplosionObject.cpp">
+      <Filter>Header Files\BaseObject\ExplosionObject</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
